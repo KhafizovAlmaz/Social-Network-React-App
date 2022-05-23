@@ -1,0 +1,19 @@
+.posts img {
+    width: 50px;
+    height: 50%;
+    border-radius: 50%;
+}
+.postHeader {
+    display: flex;
+}
+.postHeader h4{
+    margin: 5px 0 0 15px ;
+}
+
+.posts {
+    margin-bottom: 15px;
+}
+
+.posts span{
+    margin: 0 0 0 50px;
+}

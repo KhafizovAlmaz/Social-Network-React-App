@@ -1,0 +1,13 @@
+.header {
+    grid-area: h;
+    background-color: white;
+    border-radius: 15px;
+}
+.header img {
+    width: 50px;
+}
+
+.loginBlock {
+    float: right;
+    margin: 17.5px;
+}

@@ -1,0 +1,15 @@
+.photo {
+    width: 100px;
+    height: 100px;
+}
+
+.selectedPage {
+    font-weight: bold;
+}
+
+.page:hover {
+    background-color: #ececec;
+    cursor: pointer;
+}
+
+

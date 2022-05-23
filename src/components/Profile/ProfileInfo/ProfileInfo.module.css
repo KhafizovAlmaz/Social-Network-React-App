@@ -1,0 +1,31 @@
+.content{
+    border-radius: .75pc .75pc 0 0;
+    overflow: hidden;
+    display: block;
+    max-height: 100%;
+    margin: 25px 0;
+}
+
+.content img {
+   width: 100%;
+    object-fit: cover;
+    max-height: 100%;
+}
+.ava img {
+    max-width: 125px;
+    padding: 10px;
+    border-radius: 100%;
+}
+.ava {
+    text-align: center;
+    margin-top: -82pt;
+}
+
+.status em:hover {
+    background-color: #ececec;
+}
+
+.ava h2{
+    margin: 0 0 10px 0;
+}
+

@@ -1,0 +1,53 @@
+.dialogs {
+display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogs_items {
+    padding: 10px 10px 10px 20px;
+    border-right: 1px solid gray;
+    margin: 5px 0 5px;
+}
+
+.dialogs_items .active {
+    color: gold;
+}
+
+.messages{
+    padding: 10px 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.messages .message {
+}
+.imgLogo {
+    width: 50px;
+    height: auto;
+
+}
+.imgContainer img{
+    width: 50px;
+height: 55px;
+    border-radius: 100%;
+}
+.imgContainer {
+    width: 50px;
+}
+.dialogItem{
+    display: flex;
+    margin-bottom: 5px;
+}
+.dialogItem a {
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.messageForm {
+    display: flex;
+}
+.messageForm div:first-child{
+    margin-right: 20px;
+}

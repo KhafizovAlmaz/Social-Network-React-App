@@ -1,0 +1,11 @@
+.error  {
+    color: red;
+}
+
+.form {
+    border: solid red 2px;
+}
+
+.loginPage {
+    text-align: center;
+}

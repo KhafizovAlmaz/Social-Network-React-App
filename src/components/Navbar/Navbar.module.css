@@ -1,0 +1,30 @@
+.nav {
+    grid-area: n;
+    background-color: #1c3faa;
+    padding-top: 25px;
+  }
+
+.item {
+height: 45px;
+
+}
+
+.item a {
+    padding-left: 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    border-radius: 2rem 0 0 2rem;
+}
+.item a:hover {
+    background-color: rgba(250, 251, 255, 0.22);
+}
+
+.item a.active {
+    color: #1a73e8;
+    background-color: white;
+}

@@ -1,0 +1,13 @@
+.content {
+    padding: 0 22px 2.5rem;
+    background-color: #f1f5f8;
+}
+
+.yoy {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+.posts {
+    display: inline-block; max-width: 100%;
+}
