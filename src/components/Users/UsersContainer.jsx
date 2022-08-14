@@ -26,12 +26,7 @@ class UsersAPIComponent extends React.Component {
     componentDidMount() {
         const {currentPage,pageSize} = this.props; //деструктуризация
         this.props.getUsers(currentPage, pageSize);
-      /*  this.props.toggleIsFetching(true);
-        usersAPI.getUsers(this.props.currentPage, this.props.pageSize).then(data => {
-            this.props.toggleIsFetching(false);
-            this.props.setUsers(data.items);
-            this.props.setTotalUsersCount(data.totalCount);
-        });*/
+
     }
     onPageChanged = (pageNumber) => {
         const {pageSize} = this.props;
@@ -58,44 +53,10 @@ class UsersAPIComponent extends React.Component {
     }
 }
 
-/*let mapStateToProps = (state) => {
-    return {
-    users: state.usersPage.users,
-        pageSize: state.usersPage.pageSize,
-        totalUsersCount: state.usersPage.totalUsersCount,
-        currentPage: state.usersPage.currentPage,
-        isFetching: state.usersPage.isFetching,
-        followingInProgress: state.usersPage.followingInProgress,
-
-    }}*/
-
-/* let mapDispatchToProps = (dispatch) => {
-     return {
-          addFriend: (userId) => {
-              dispatch(addFriendAC(userId))
-          },
-         deleteFriend: (userId) => {
-             dispatch(deleteFriendAC(userId))
-         },
-         setUsers: (users) => { //тут когда пользователь заходит на эту страницу, он как бы нажимает кнопку загрузи мне пользователей,
-              // хотя такой кнопки нет
-             dispatch(setUsersAC(users))
-         },
-       setCurrentPage: (pageNumber) => {
-              dispatch(setCurrentPageAC(pageNumber))
-      },
-       setTotalUsersCount: (totalCount) => {
-              dispatch(setUsersTotalCountAC(totalCount))
-         },
-         toggleIsFetching: (isFetching) => {
-            dispatch(toggleIsFetchingAC(isFetching));
-       }
-     }}*/
 
 let mapStateToProps = (state) => {
     return {
         users: getUsersSelector(state),
-        //users: getUsersS(state),
         pageSize: getPageSize(state),
         totalUsersCount: getTotalUsersCount(state),
         currentPage: getCurrentPage(state),

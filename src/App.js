@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import {Routes, Route, BrowserRouter, HashRouter} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
 import ProfileContainer from "./components/Profile/ProfileContainer";
@@ -11,7 +11,6 @@ import {connect, Provider} from "react-redux";
 import {initializeApp} from "./redux/app-reducer";
 import Preloader from "./components/common/preloader/Preloader";
 import store from "./redux/redux-store";
-import SettingsContainer from "./components/Settings/SettingsContainer";
 import {Navigate} from "react-router";
 
 const SettingsC = React.lazy(() => import('./components/Settings/SettingsContainer'));
@@ -53,7 +52,7 @@ const mapStateToProps = (state) => ({
 const AppContainer = connect(mapStateToProps, {initializeApp})(App);
 
 const SamuraiJSAPP = (props) => {
-    //hashRouter используется только в целях правильной работы ссылок при перезагрузки страницы
+    //hashRouter используется только в целях правильной работы ссылок при перезагрузке страницы на gh
     return <HashRouter>
         <Provider store={store}>
             <AppContainer />

@@ -17,4 +17,3 @@ const Profile = (props) => {
     )
 }
 export default Profile;
-//{props.params == props.authorizedUserId ? 123 :0}

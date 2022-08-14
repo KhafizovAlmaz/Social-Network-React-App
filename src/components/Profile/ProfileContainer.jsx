@@ -6,7 +6,6 @@ import {useParams} from "react-router";
 import {compose} from "redux";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
-
 const withRouter = WrappedComponent => props => {
     const params = useParams();
     return (

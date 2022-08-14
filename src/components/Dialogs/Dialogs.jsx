@@ -6,7 +6,6 @@ import {Navigate} from "react-router";
 import * as yup from "yup";
 import {Field, Form, Formik} from "formik";
 
-
 const MessageForm = (props) => {
     const validationsSchema = yup.object().shape({
         newMessageBody: yup.string().max(700, "Too long")

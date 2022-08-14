@@ -3,8 +3,6 @@ import React  from "react";
 import {connect} from "react-redux";
 import { logout} from "../../redux/auth-reducer";
 
-
-
 const axios = require('axios').default;
 
 class HeaderContainer extends React.Component  {
