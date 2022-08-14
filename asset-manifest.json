@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/First-React-App/static/css/main.a895b3e0.css",
-    "main.js": "/First-React-App/static/js/main.02b15b5f.js",
-    "static/css/365.1b6fd40a.chunk.css": "/First-React-App/static/css/365.1b6fd40a.chunk.css",
-    "static/js/365.96816734.chunk.js": "/First-React-App/static/js/365.96816734.chunk.js",
-    "static/media/user.png": "/First-React-App/static/media/user.7228c6f165b215d17b26.png",
-    "static/media/preloader.gif": "/First-React-App/static/media/preloader.d8baec1624c5850bb857.gif",
-    "index.html": "/First-React-App/index.html",
-    "main.a895b3e0.css.map": "/First-React-App/static/css/main.a895b3e0.css.map",
-    "main.02b15b5f.js.map": "/First-React-App/static/js/main.02b15b5f.js.map",
-    "365.1b6fd40a.chunk.css.map": "/First-React-App/static/css/365.1b6fd40a.chunk.css.map",
-    "365.96816734.chunk.js.map": "/First-React-App/static/js/365.96816734.chunk.js.map"
+    "main.css": "/Social-Network-React-App/static/css/main.a895b3e0.css",
+    "main.js": "/Social-Network-React-App/static/js/main.75aed106.js",
+    "static/css/365.1b6fd40a.chunk.css": "/Social-Network-React-App/static/css/365.1b6fd40a.chunk.css",
+    "static/js/365.96816734.chunk.js": "/Social-Network-React-App/static/js/365.96816734.chunk.js",
+    "static/media/user.png": "/Social-Network-React-App/static/media/user.7228c6f165b215d17b26.png",
+    "static/media/preloader.gif": "/Social-Network-React-App/static/media/preloader.d8baec1624c5850bb857.gif",
+    "index.html": "/Social-Network-React-App/index.html",
+    "main.a895b3e0.css.map": "/Social-Network-React-App/static/css/main.a895b3e0.css.map",
+    "main.75aed106.js.map": "/Social-Network-React-App/static/js/main.75aed106.js.map",
+    "365.1b6fd40a.chunk.css.map": "/Social-Network-React-App/static/css/365.1b6fd40a.chunk.css.map",
+    "365.96816734.chunk.js.map": "/Social-Network-React-App/static/js/365.96816734.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a895b3e0.css",
-    "static/js/main.02b15b5f.js"
+    "static/js/main.75aed106.js"
   ]
 }
